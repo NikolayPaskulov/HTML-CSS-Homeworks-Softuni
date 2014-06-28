@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="styles/style02.css">
+</head>
+
+<body>
+	<form method="get" id="form">
+		<table>
+			<thead>
+				<tr>
+					<th colspan="5">
+						<h1>FLIGHT ORDER</h1>
+					</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td colspan="3">From</td>
+					<td colspan="2">To</td>
+				</tr>
+
+				<tr>
+					<td colspan="3">
+						<select name="fromCity" id="fromCity" class="dropdown">
+							<option value="Value1">enter a city</option>
+							<option value="Value2">Sofia</option>
+							<option value="Value3">Varna</option>
+							<option value="Value4">Plovdiv</option>
+							<option value="Value5">Burgas</option>
+						</select>
+					</td>
+					<td colspan="2">
+						<select name="toCity" id="toCity" class="dropdown">
+							<option value="Value1">enter a city</option>
+							<option value="Value2">Sofia</option>
+							<option value="Value3">Varna</option>
+							<option value="Value4">Plovdiv</option>
+							<option value="Value5">Burgas</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3"></td>
+					<td colspan="2">
+						<input type="checkbox" name="prefer" id="prefer">
+						<label for="prefer">Prefer directs</label>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="3">Departure date</td>
+					<td colspan="2">Time interval</td>
+				</tr>
+
+				<tr>
+					<td colspan="3">
+						<input type="date" name="departure" placeholder="09.06.2014">
+					</td>
+					<td>
+						<input type="time" name="depStart" id="depStart">
+					</td>
+					<td>
+						<input type="time" name="depEnd" id="depEnd">
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="3">Return date</td>
+					<td colspan="2">Time interval</td>
+				</tr>
+
+				<tr>
+					<td colspan="3">
+						<input type="date" name="return">
+					</td>
+					<td>
+						<input type="time" name="retStart" id="retStart">
+					</td>
+					<td>
+						<input type="time" name="retEnd" id="retEnd">
+					</td>
+				</tr>
+
+				<tr>
+					<td>12+</td>
+					<td>2-12</td>
+					<td>0-2</td>
+					<td colspan="2">Choose class</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input type="number" name="12+" id="12+">
+					</td>
+					<td>
+						<input type="number" name="2-12" id="2-12">
+					</td>
+					<td>
+						<input type="number" name="0-2" id="0-2">
+					</td>
+
+					<td colspan="2">
+						<select name="class" id="class" class="dropdown">
+							<option value="Value1">Economy</option>
+							<option value="Value2">Bussines</option>
+							<option value="Value3">Second Class</option>
+							<option value="Value4">First Class</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="3"></td>
+					<td colspan="2">
+						<input type="submit" value="Search">
+					</td>
+				</tr>
+
+			</tbody>
+
+		</table>
+	</form>
+</body>
+
+</html>

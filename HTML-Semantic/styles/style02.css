@@ -1,0 +1,44 @@
+body {
+	background-color: #EDBBEA;
+}
+
+h1 {
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+progress {
+	width: 200px;
+	height: 25px;
+	background-color: green;
+}
+
+
+ul {
+	display: block;
+}
+
+li {
+	text-decoration: none;
+}
+
+#left {
+	float: left;
+	margin: 15px;
+}
+
+#right {
+	float:right;
+}
+
+video {
+	width: 360px;
+
+}

@@ -1,0 +1,13 @@
+.logo{
+    width: 200px;
+    float: right;
+    margin-top: -60px;
+    margin-left: -200px;
+}
+
+.footer {
+    color: white;
+    float: right;
+    margin-bottom: -60px;
+    font-size: 5px;
+}

@@ -1,0 +1,20 @@
+body {
+	font-style: italic;
+	background-color: rgb(255, 192, 203);
+}
+
+h1 {
+	text-align: center;
+}
+
+input[type=date], input[type=time], input[type=number] {
+	width: 95%;
+}
+
+#form {
+	width: 300px;
+}
+
+.dropdown {
+	width: 95%;
+}
